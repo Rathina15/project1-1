@@ -4,12 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header class="header">
+      <header className="header">
         </header>
       
+
       <br></br>
         
-        <form>
+          <form>
         <div className="App1">   
         Login Form
         </div>
