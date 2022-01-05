@@ -1,42 +1,27 @@
 
 import './App.css';
+import { Login } from './login';
+import { User } from './user';
+import { User1 } from './user1';
+import { User2 } from './user2';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="header">
-        </header>
-      
-
-      <br></br>
-        
-          <form>
-        <div className="App1">   
-        Login Form
-        </div>
-        <br></br>
-
-        <br></br>
-       <center>
-          <input type="text" placeholder="email or username"></input><br></br>
-            
-            <input id="pwd" type="password" placeholder="password"></input><br></br>
-            
-            <input type="submit" value="sign in"></input> 
-            <br></br>
-            <br></br>
-            <a href="#">forget password?</a></center>
-
-
-
-        </form>
-
-        <br></br>
-
-        
-    
-    </div>
-  );
+return(
+<div className='App' >
+   
+   <Login />
+<div>
+   <User />
+   </div>
+   <div>
+      <User1/>
+   </div>
+   <div>
+      <User2/>
+   </div>
+   
+   </div>
+   );  
 }
 
 export default App;

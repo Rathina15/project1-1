@@ -1,4 +1,4 @@
-.App {
+.log {
   width:530px;
   margin:130px auto;
   position:center;
@@ -7,7 +7,7 @@
 }
 
 
-.App .App1 {
+.log .App1 {
   background-color: #282c34;
   min-height: 10vh;
   display: flex;
@@ -19,7 +19,7 @@
 
 
 
-.App form{
+.log form{
   position:absolute;
   background: white;
   width:45%;
