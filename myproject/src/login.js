@@ -20,7 +20,7 @@ export function Login(){
             <input type="submit" value="sign in"></input> 
             <br></br>
             <br></br>
-            <a href="#">forget password?</a></center>
+            <a href="#">forget password??</a></center>
             </form>
   
 
