@@ -1,25 +1,31 @@
 
 import './App.css';
 import { Login } from './login';
-import { User } from './user';
-import { User1 } from './user1';
-import { User2 } from './user2';
+import { Login1 } from './login1';
+import { Login2 } from './login2';
+import { Login3 } from './login3';
+import { Login4 } from './login4';
+
+
 
 function App() {
 return(
 <div className='App' >
-   
+   <center>
    <Login />
 <div>
-   <User />
+   <Login1/>
    </div>
    <div>
-      <User1/>
+      <Login2/>
    </div>
    <div>
-      <User2/>
+      <Login3/>
    </div>
-   
+   <div>
+      <Login4/>
+   </div>
+   </center>
    </div>
    );  
 }

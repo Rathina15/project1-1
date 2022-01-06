@@ -19,29 +19,7 @@
 
 
 
-.log form{
-  position:absolute;
-  background: white;
-  width:45%;
-  padding:50px 10px 0 30px;
-  box-sizing: border-box;
-  border:25px solid #61dafb;
-  border-radius: 0 0 5px 5px;
-}
-
-form input{
-  align-items: center;
-  height:50px;
-  width: 90%;
-  padding: 0 10px;
-  border-radius:3px;
-  border:1px solid silver;
-  font-size:18px;
-  outline:none;
-
-}
-
-form input[type="submit"]{
+.user2 input[type="submit"]{
 background: #61dafb;
 margin-top:48px;
 margin: bottom 40px;
@@ -52,3 +30,5 @@ height: 45px;
 
 
 }
+
+
