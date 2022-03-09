@@ -7,7 +7,7 @@ export function Login(){
         <div className="log">
     
           <div className="App1">   
-        Login Form!
+        Login Form
         </div>
         </div>
     
